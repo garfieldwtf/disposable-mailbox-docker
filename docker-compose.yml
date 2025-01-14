@@ -32,8 +32,8 @@ services:
         email: ${EMAIL}
     container_name: web
     ports:
-      - "0.0.0.0:80:80"
-      - "0.0.0.0:443:443"
+      - "80"
+      - "443"
     cap_add:
       - NET_ADMIN
     volumes:
